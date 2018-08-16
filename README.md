@@ -7,6 +7,7 @@ Apache Nifi Parse Json Attribute Processor
 # Get Started!
 
 Download project as zip and configure pom.xml and then meven build.
+
 After build copy *.nar file from target to {NIFI_PATH}/lib
 
 # How to Use?
