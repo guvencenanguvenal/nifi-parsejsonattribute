@@ -16,9 +16,11 @@ After build copy *.nar file from target to {NIFI_PATH}/lib
  -  You should fill the properties.
  
 **Json Attribute**
+
 This is a property which is a json.
 
 **Json Properties**
+
 This is a property which is created after parsing.
 
 Example: JSON1, JSON2, JSON3
