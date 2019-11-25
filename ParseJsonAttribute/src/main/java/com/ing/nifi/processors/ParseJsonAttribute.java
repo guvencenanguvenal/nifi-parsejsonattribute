@@ -1,4 +1,4 @@
-package com.ing.nifi.processors;
+package com.gcg.nifi.processors;
 
 import java.util.ArrayList;
 import java.util.Collections;
