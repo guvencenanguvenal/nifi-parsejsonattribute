@@ -40,3 +40,6 @@ for this example attribute should be JSON1,JSON2,JSON3:
 }
 ```
 
+# Contribute
+
+Please fork project [nifi-parsejsonattribute](https://github.com/guvencenanguvenal/nifi-parsejsonattribute/fork)
