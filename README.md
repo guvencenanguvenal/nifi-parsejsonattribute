@@ -4,25 +4,39 @@ Apache Nifi Parse Json Attribute Processor
 
 **Please contribute project.**
 
-# Get Started!
+# Get Started! :sunglasses:
 
-Download project as zip and configure pom.xml and then meven build.
+Download [stable version](https://github.com/guvencenanguvenal/nifi-parsejsonattribute/releases/tag/stable).
 
-After build copy *.nar file from target to {NIFI_PATH}/lib
+Build project 
 
-# How to Use?
+```yaml
+mvn clean install
+```
 
- -  After copy nar file, you can add this processor like other processors.
- -  You should fill the properties.
+After build success, COPY `attribute-parse-json.nar` file from `target` directory to `{NIFI_PATH}/lib` directory.
+
+# How to Use? :star:
+
+ -  After copy nar file, restart nifi and you can add ParseJsonAttribute processor like other processors.
+ -  You must fill properties.
  
 **Json Attribute**
 
-This is a property which is a json.
+Property is which property is a json.
 
 **Json Properties**
 
-This is a property which is created after parsing.
+Property is which is created after parsing.
 
-Example: JSON1, JSON2, JSON3
- 
+for this example attribute should be JSON1,JSON2,JSON3: 
+
+```yaml
+
+{
+  'JSON1': 1,
+  'JSON2': 2,
+  'JSON3': 3
+}
+```
 
