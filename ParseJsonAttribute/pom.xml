@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <json-path.version>2.7.0</json-path.version>
+        <json-path.version>2.9.0</json-path.version>
         <nifi.version>1.16.1</nifi.version>
         <nifi-processors-util.version>1.15.3</nifi-processors-util.version>
         <apache-common-io.version>2.11.0</apache-common-io.version>
